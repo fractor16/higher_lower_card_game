@@ -1,0 +1,9 @@
+{
+  "name": "higher_lower_card_game",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "flutter build web --release",
+    "deploy": "flutter build web --release && npx vercel --prod"
+  }
+}
